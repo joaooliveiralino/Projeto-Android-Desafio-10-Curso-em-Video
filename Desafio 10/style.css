@@ -11,18 +11,18 @@
     nav {
         display: flex;
         flex-direction: row;
-        justify-content: center; /* Centraliza o bloco todo */
+        justify-content: center; 
         align-items: center;
-        flex-wrap: nowrap;       /* PROIBE terminantemente de pular linha */
+        flex-wrap: nowrap;       
         padding: 5px 0;
     }
 
     nav a {
-        font-size: 0.7em;        /* Letra um pouco menor para caber */
-        padding: 8px 5px;        /* Espaço lateral mínimo (5px) */
+        font-size: 0.7em;        
+        padding: 8px 5px;       
         margin: 0;
-        white-space: nowrap;     /* Impede que o "Fale Conosco" quebre */
-        letter-spacing: -0.5px;  /* Aperta um pouquinho as letras para ganhar espaço */
+        white-space: nowrap;     
+        letter-spacing: -0.5px;  
     }
 }
 
