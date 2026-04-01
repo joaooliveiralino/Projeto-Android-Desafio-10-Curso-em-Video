@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('Arquivos/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /* Centraliza o bloco todo */
+        align-items: center;
+        flex-wrap: nowrap;       /* PROIBE terminantemente de pular linha */
+        padding: 5px 0;
+    }
+
+    nav a {
+        font-size: 0.7em;        /* Letra um pouco menor para caber */
+        padding: 8px 5px;        /* Espaço lateral mínimo (5px) */
+        margin: 0;
+        white-space: nowrap;     /* Impede que o "Fale Conosco" quebre */
+        letter-spacing: -0.5px;  /* Aperta um pouquinho as letras para ganhar espaço */
+    }
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: #89D99D;
+}
+.titulo-completo{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font: bolder;
+    font:40px;;
+    background: linear-gradient(to top,#1A5735, #3DDB84 );
+    color: white;
+    line-height: 1em;
+}
+
+.titulo  {
+    font-size: 30px;
+    padding: 15px;
+
+}
+
+
+.subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    padding: 70px;
+    font: caption;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #1A5735;
+    padding: 3px;
+    line-height: 1.3em;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    line-height: 1.3em;
+}
+nav > a:hover {
+    text-decoration: underline;
+    line-height: 1.3em;
+}
+
+.artigo-completo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.historia {
+    font-family: 'idroid', sans-serif !important;
+    color: #1A5735;
+    font-size: 30px;
+    line-height: 1em;
+}
+
+.conteudo-historia {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.primeiro-mascote {
+    background: linear-gradient(to right,#89D99D, white);
+    margin-top: 20px;
+    display: flex;
+    font-family: 'idroid', sans-serif;
+    font-size: 20px;
+    color: #1A5735;
+    margin-bottom: 20px;
+}
+
+.conteudo-primeiro-mascote {
+    margin-top: 20px;
+    font-family: 'open-suns', sans-serif;
+}
+.mascotes {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+}
+.conteudo-historia > a {
+    font-family: 'open suns' sans-serif;
+    text-decoration: none;
+    color: #1A5735;
+    font-weight: 5700;
+}
+.conteudo-historia >a:hover {
+    text-decoration: underline;
+}
+
+.conteudo-historia a::after {
+    content: ' 🔗';
+    text-decoration: none;
+    display: inline-block;
+}
+
+.irina {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+.video {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 20px 0;
+    background-color: #333;
+}
+.video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+        
+} 
+
+.rodape {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.rodape h3{
+    background-color:#2FA866 ;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+.rodapep {
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+.conteudo-rodape {
+    padding:20px;
+    font-family: 'Open sans', sans-serif;
+
+}
+
+.listas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.listas ul {
+    list-style-type: '✔ ';
+    color: #2FA866;
+    font-weight: bold;
+    list-style-position: inside;
+    width: 45%;
+}
+
+.listas li {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.rodapep> a {
+    font-family: 'open suns' sans-serif;
+    text-decoration: none;
+    color: #1A5735;
+    font-weight: 700;
+}
+.rodapep >a:hover {
+    text-decoration: underline;
+}
+.rodapep a::after {
+    content: ' 🔗';
+    text-decoration: none;
+    display: inline-block;
+}
+.conclusao {
+    margin-top: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
